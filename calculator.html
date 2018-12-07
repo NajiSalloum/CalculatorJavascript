@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> calculator </title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<style>
+			
+			
+		</style>
+	</head>
+	<body>
+		
+		<nav class="navbar navbar-inverse">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">My Calculator</a>
+			</div>
+
+		
+			<div class="collapse navbar-collapse" id="menu">
+			  <ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Calc <span class="sr-only">(current)</span></a></li>
+				<li><a href="calculator.html">New</a></li>
+				<li class="dropdown">
+					<a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					About <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Naji Salloum  Copyright &copy; 2018</a></li>
+					</ul>
+				</li>
+				
+			 </ul>
+			</div>
+		  </div>
+		</nav>
+		<section id="showcase">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="container">
+						<div class="myForm">
+							<form name="calculator">
+							<input id="display" class="foo" value="0"/>
+							<br>
+							<input class="buttonClass" type="button" value="7"  onclick="myFunction('7')" />
+							<input class="buttonClass" type="button" value="8" onclick="myFunction('8')"/>
+							<input class="buttonClass" type="button" value="9" onclick="myFunction('9')"/>
+							<input class="buttonClass" type="button" value="+" onclick="setOperation('+')"  />
+							<br>
+							<input class="buttonClass" type="button" value="4"  onclick="myFunction('4')">
+							<input class="buttonClass" type="button" value="5" onclick="myFunction('5')"/>
+							<input class="buttonClass" type="button" value="6" onclick="myFunction('6')"/>
+							<input class="buttonClass" type="button" value="-"  onclick="setOperation('-')"/>
+							<br>
+							<input class="buttonClass" type="button" value="1"  onclick="myFunction('1')"/>
+							<input class="buttonClass" type="button" value="2" onclick="myFunction('2')"/>
+							<input class="buttonClass" type="button" value="3" onclick="myFunction('3')"/>
+							<input class="buttonClass" type="button" value="*"  onclick="setOperation('*')"/>
+							<br>
+							<input class="buttonClass" type="button" value="0"  onclick="myFunction('0')">
+							<input class="buttonClass" type="button" value="%"  onclick="setOperation('%')"/>
+							<input class="buttonClass" type="button" value="."  onclick="myFunction('.')"/>
+							<input class="buttonClass" type="button" value="/"  onclick="setOperation('/')" />
+							<br>
+							<input class="buttonClassEs" type="button" value="C" onclick="Clear()"/>
+							<input class="buttonClassEs" type="button" value="="   onclick="myFunctionCalc()"/>
+									
+								
+									
+							
+							</form>
+						</div>	
+					</div>	
+						
+					</div>
+					<div class="col-md-3 col-sm-3">
+					</div>
+				</div>
+				<div class="row footer">
+					<div class="col-md-3 col-sm-3">
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="footer">
+						<p ><small>Naji Salloum Copyright &copy;2018</small></p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.js"
+		  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		  crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	<body>
+</html>
+
+
+
+
+
+
+
+

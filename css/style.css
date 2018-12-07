@@ -1,0 +1,46 @@
+body
+{
+	background-color:#f0f0f0;
+}
+
+.myForm{
+	margin-top:50px;
+}
+.buttonClass{
+	margin:2px;
+    width:100px;
+	height:40px;
+	border-radius:15px;
+	background:#004080;
+	color:#fff;
+}
+
+.buttonClassEs{
+	margin:2px;
+    width:210px;
+	height:40px;
+	border-radius:15px;
+	background:#004080;
+	color:#fff;
+}
+
+#display{
+	width:425px;
+	height:35px;
+	border-radius:15px;
+	text-align:right;
+	margin-bottom:5px;
+}
+.foo
+{
+    padding-right: 20px;
+}
+
+.navbar{
+	border-radius:0px;
+}
+.footer{
+	background-color: #f0f0f0;
+	padding:10px;
+	padding-left:75px;
+}
